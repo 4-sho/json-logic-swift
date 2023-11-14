@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name = "jsonlogic"
-  s.version = "1.2.3"
+  s.version = "1.2.4"
   s.summary = "A JsonLogic Swift library"
   s.description = "A JsonLogic implementation in Swift. JsonLogic is a way to write rules that involve computations in JSON format, these can be applied on JSON data with consistent results. So you can share between server and clients rules in a common format."
   s.homepage = "https://github.com/advantagefse/json-logic-swift"
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.author = { "Christos Koninis" => "c.koninis@afse.eu" }
-  s.source = { :git => "https://github.com/advantagefse/json-logic-swift.git", :tag => s.version }
+  s.source = { :git => "https://github.com/4-sho/json-logic-swift.git", :tag => s.version }
   
   s.ios.deployment_target = '11.0'
   s.tvos.deployment_target = '11.0'
